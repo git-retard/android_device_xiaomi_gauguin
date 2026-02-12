@@ -437,3 +437,29 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+    
+# Axion Specific
+ TARGET_DISABLE_EPPE := true
+ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+ 
+ TARGET_ENABLE_BLUR := true
+ TARGET_INCLUDE_VIPERFX := true
+ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+ 
+ 
+ add in product overrides or set using console: adb shell setprop persist.sys.ax_debug_enabled 1 
+persist.sys.ax_debug_enabled=1
+
+#Axion Device Properties
+# Camera information (multiple sensors supported)
+ AXION_CAMERA_REAR_INFO := 108,8,2,2
+ AXION_CAMERA_FRONT_INFO := 16
+
+# Maintainer name (underscores become spaces in the UI)
+ AXION_MAINTAINER := inturvert
+
+# Processor name (underscores become spaces)
+ AXION_PROCESSOR := Snapdragon_750G
+ 
+# Firmware Configuration
+ TARGET_INCLUDES_LOS_PREBUILTS := false
