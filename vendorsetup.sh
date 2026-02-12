@@ -1,0 +1,12 @@
+git clone -b lineage-23.2 https://github.com/git-retard/proprietary_vendor_xiaomi_gauguin.git vendor/xiaomi/gauguin
+git clone -b lineage-23.2 https://github.com/git-retard/android_kernel_xiaomi_gauguin.git kernel/xiaomi/gauguin
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_vendor_qcom_opensource_usb.git vendor/qcom/opensource/usb
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_hardware_lineage_interfaces.git hardware/lineage/interfaces
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_hardware_qcom-caf_common.git hardware/qcom-caf/common
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_vendor_lineage.git vendor/lineage
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_device_lineage_sepolicy.git device/lineage/sepolicy
+#git clone -b lineage-23.0-caf-sm8450 https://github.com/LineageOS/android_device_qcom_sepolicy_vndr.git device/qcom/sepolicy_vndr
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_vendor_qcom_opensource_dataservices.git vendor/qcom/opensource/dataservices
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_vendor_qcom_opensource_vibrator.git vendor/qcom/opensource/vibrator
+#git clone -b lineage-23.2 https://github.com/LineageOS/android_vendor_qcom_opensource_usb.git vendor/qcom/opensource/usb
