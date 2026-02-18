@@ -91,7 +91,7 @@ DEVICE_MANIFEST_NFC_FILES := \
 BOARD_USES_METADATA_PARTITION := true
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/dumb/config/BoardConfigReservedSize.mk
 BOARD_FLASH_BLOCK_SIZE := 262144
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
