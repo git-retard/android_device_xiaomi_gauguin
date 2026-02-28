@@ -446,9 +446,7 @@ PRODUCT_PACKAGES += \
  TARGET_INCLUDE_VIPERFX := true
  $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
  
- 
- add in product overrides or set using console: adb shell setprop persist.sys.ax_debug_enabled 1 
-persist.sys.ax_debug_enabled=1
+
 
 #Axion Device Properties
 # Camera information (multiple sensors supported)
@@ -463,3 +461,7 @@ persist.sys.ax_debug_enabled=1
  
 # Firmware Configuration
  TARGET_INCLUDES_LOS_PREBUILTS := false
+ 
+ 
+ # MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
