@@ -413,6 +413,10 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service
+    
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
 
 PRODUCT_PACKAGES += \
     hostapd \
