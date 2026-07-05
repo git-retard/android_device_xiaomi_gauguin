@@ -1,3 +1,4 @@
+#!/bin/env python3
 #
 # SPDX-FileCopyrightText: The Android Open Source Project
 # SPDX-FileCopyrightText: The MoKee Open Source Project
@@ -13,6 +14,7 @@ def FullOTA_InstallEnd(info):
 
 
 def IncrementalOTA_InstallEnd(info):
+    info.input_zip = info.target_zip
     OTA_InstallEnd(info)
     return
 
