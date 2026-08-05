@@ -67,7 +67,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi \
-    vendor/qcom/opensource/usb/etc
+    vendor/qcom/opensource/usb/etc \
+
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -443,7 +444,7 @@ PRODUCT_PACKAGES += \
  $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
  
  TARGET_ENABLE_BLUR := true
- TARGET_INCLUDE_AXFX := true
+ TARGET_INCLUDE_AXFX := false
 
 #Axion Device Properties
 # Camera information (multiple sensors supported)

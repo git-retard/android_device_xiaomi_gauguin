@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/gauguin/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit Package Removal
-$(call inherit-product, device/xiaomi/gauguin/package_removal/Android.mk)
+#$(call inherit-product, device/xiaomi/gauguin/package_removal/Android.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_gauguin

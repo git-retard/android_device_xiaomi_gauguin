@@ -8,14 +8,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
 	Browser2 \
 	Bcr \
+	BCR \
 	Recorder \
-	Seedvault \
 	FMRadio \
 	Gallery2 \
+	AudioFX \
 	Glimpse \
 	Jelly \
 	Music \
-	MusicFX \
+	Jelly \
+	FM2\
 	Twelve
    
 LOCAL_UNINSTALLABLE_MODULE := true
