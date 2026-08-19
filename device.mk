@@ -462,4 +462,4 @@ PRODUCT_PACKAGES += \
  
  
  # MiuiCamera
-#$(call inherit-product, vendor/MiuiCamera/config.mk)
+ $(call inherit-product, vendor/MiuiCamera/config.mk)
