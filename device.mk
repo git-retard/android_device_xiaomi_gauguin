@@ -444,7 +444,7 @@ PRODUCT_PACKAGES += \
  $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
  
  TARGET_ENABLE_BLUR := true
- TARGET_INCLUDE_AXFX := false
+ TARGET_INCLUDE_AXFX := true
 
 #Axion Device Properties
 # Camera information (multiple sensors supported)
@@ -462,4 +462,4 @@ PRODUCT_PACKAGES += \
  
  
  # MiuiCamera
- $(call inherit-product, vendor/MiuiCamera/config.mk)
+ #$(call inherit-product, vendor/MiuiCamera/config.mk)
