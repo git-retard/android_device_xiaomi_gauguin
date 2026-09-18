@@ -459,6 +459,10 @@ PRODUCT_PACKAGES += \
  
 # Firmware Configuration
  TARGET_INCLUDES_LOS_PREBUILTS := false
+
+# VULKAN MEDIA FIX
+ TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+
  
  
  # MiuiCamera
